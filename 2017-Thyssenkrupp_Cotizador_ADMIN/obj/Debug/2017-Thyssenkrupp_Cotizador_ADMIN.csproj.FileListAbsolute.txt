@@ -46,4 +46,5 @@ D:\DropboxMSN\Dropbox\2017 Development\2017-Thyssenkrupp_Cotizador_ADMIN\2017-Th
 D:\DropboxMSN\Dropbox\2017 Development\2017-Thyssenkrupp_Cotizador_ADMIN\2017-Thyssenkrupp_Cotizador_ADMIN\obj\Debug\2017-Thyssenkrupp_Cotizador_ADMIN.dll.licenses
 D:\DropboxMSN\Dropbox\2017 Development\2017-Thyssenkrupp_Cotizador_ADMIN\2017-Thyssenkrupp_Cotizador_ADMIN\obj\Debug\2017-Thyssenkrupp_Cotizador_ADMIN.dll
 D:\DropboxMSN\Dropbox\2017 Development\2017-Thyssenkrupp_Cotizador_ADMIN\2017-Thyssenkrupp_Cotizador_ADMIN\obj\Debug\2017-Thyssenkrupp_Cotizador_ADMIN.pdb
+D:\DropboxMSN\Dropbox\2017 Development\2017-Thyssenkrupp_Cotizador_ADMIN\2017-Thyssenkrupp_Cotizador_ADMIN\bin\Images\Thyssenkrupp_Logo.png
 D:\DropboxMSN\Dropbox\2017 Development\2017-Thyssenkrupp_Cotizador_ADMIN\2017-Thyssenkrupp_Cotizador_ADMIN\obj\Debug\2017-Thyssenkrupp_Cotizador_ADMIN.csprojResolveAssemblyReference.cache

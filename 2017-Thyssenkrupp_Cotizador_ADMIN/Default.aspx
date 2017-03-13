@@ -11,7 +11,7 @@
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div class="jumbotron">
                     <h1>Thyssenkrupp</h1>
-                    <p class="lead">Welcome to the Admin Quotation Web Site</p>
+                   <p class="lead">Quotation Admin Web Site</p>
                     <p></p>
                 </div>
             </div>
@@ -20,6 +20,20 @@
         <div>
             <h2>Login</h2>
         </div>
+        <!-- User Login Row -->
+        <div class="row">
+                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-2">
+                    <telerik:RadLabel ID="UILabelCategoria" runat="server">Authorization: </telerik:RadLabel>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                    <telerik:RadComboBox ID="UIComboBxAuthorization" runat="server">
+                        <Items>
+                            <telerik:RadComboBoxItem runat="server" Selected="True" Text="Administrator" Value="1" />
+                        </Items>
+                    </telerik:RadComboBox>
+                </div>
+        </div>
+        &nbsp;
         <!-- User Login Row -->
         <div class="row">
                 <div class="col-lg-1 col-md-1 col-sm-2 col-xs-2">
@@ -46,7 +60,7 @@
         <!-- Button Login -->
         <div class="row">
             <div class="col-lg-3 col-md-4 col-sm-3 col-xs-3" >
-                <telerik:RadButton ID="UIButtonLogin" runat="server" Text="Enter"></telerik:RadButton>
+                <telerik:RadButton ID="UIButtonLogin" runat="server" Text="Enter" OnClick="UIButtonLogin_Click" ></telerik:RadButton>
             </div>
                 
         </div>

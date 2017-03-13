@@ -13,6 +13,24 @@ namespace _2017_Thyssenkrupp_Cotizador_ADMIN {
     public partial class _Default {
         
         /// <summary>
+        /// UILabelCategoria control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::Telerik.Web.UI.RadLabel UILabelCategoria;
+        
+        /// <summary>
+        /// UIComboBxAuthorization control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::Telerik.Web.UI.RadComboBox UIComboBxAuthorization;
+        
+        /// <summary>
         /// UILabelUser control.
         /// </summary>
         /// <remarks>
