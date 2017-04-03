@@ -5355,11 +5355,15 @@ a.badge:hover, a.badge:focus {
 }
 
 .jumbotron {
-    padding-top: 30px;
+    /*background-image:url("../Images/3d-image-of-engineering-1024x576.jpg");*/
+    background-size:cover;
+    background-position: center center;
+    background-color:rgb(0,160,240)
+    /*padding-top: 30px;
     padding-bottom: 30px;
     margin-bottom: 30px;
     color: inherit;
-    background-color: #eeeeee;
+    background-color: #eeeeee;*/
 }
 
     .jumbotron h1, .jumbotron .h1 {
@@ -7370,4 +7374,40 @@ button.close {
 
 .panel-primary .panel-heading, .panel-success .panel-heading, .panel-warning .panel-heading, .panel-danger .panel-heading, .panel-info .panel-heading, .panel-primary .panel-title, .panel-success .panel-title, .panel-warning .panel-title, .panel-danger .panel-title, .panel-info .panel-title {
     color: #fff;
+}
+
+.navbar-fixed-left {   /* Deus Menu Config*/
+  width: 140px;
+  position: fixed;
+  border-radius: 0;
+  height: 100%;
+
+    margin-top: 0px;
+    margin-left: -250px;
+    left: 250px;
+    z-index: 1000;
+  
+}
+
+.navbar-fixed-left .navbar-nav > li {
+  float: left;  /* Cancel default li float: left */
+  width: 139px;
+}
+
+.navbar-fixed-left + .container {
+  padding-left: 160px;
+}
+
+/* On using dropdown menu (To right shift popuped) */
+.navbar-fixed-left .navbar-nav > li > .dropdown-menu {
+  margin-top: -50px;
+  margin-left: 140px;
+}
+
+#page-content-wrapper {
+  width: 95%;
+  margin-top: 0px;
+  margin-left: -210px;
+    position: fixed;
+  left: 250px;
 }

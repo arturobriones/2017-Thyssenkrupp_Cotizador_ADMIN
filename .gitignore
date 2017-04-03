@@ -1,0 +1,11 @@
+# Archivo Ignore para proyecto Admin Cotizador
+# 
+#
+#
+#
+
+# Telerik dll
+Telerik*.dll
+
+# Devexpress dll
+DevExpress*.dll

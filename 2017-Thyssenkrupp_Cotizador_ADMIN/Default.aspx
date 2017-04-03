@@ -9,17 +9,25 @@
         <!-- Jumbotron Row -->
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <div class="jumbotron">
-                    <h1>Thyssenkrupp</h1>
-                   <p class="lead">Quotation Admin Web Site</p>
-                    <p></p>
+                <div class="jumbotron" style="height: 250px;">
+                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 pull-left">
+                        <img alt="" src="/Images/Thyssenkrupp_LogoWhite.png" width="190" style="color: white" class="img-responsive"/>
+                    </div>
+                    <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 pull-right" >
+                        <h1 style="color: white">Administration Platform</h1>
+                        <p class="lead" style="color: white"></p>
+                        <p></p>
+                    </div>
+                    
                 </div>
             </div>
         </div>
-        
+         <!-- End Jumbotron Row -->
+        <p>&nbsp;</p>
         <div>
             <h2>Login</h2>
         </div>
+        <p>&nbsp;</p>
         <!-- User Login Row -->
         <div class="row">
                 <div class="col-lg-1 col-md-1 col-sm-2 col-xs-2">
@@ -65,6 +73,9 @@
                 
         </div>
         &nbsp;
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
     </div>
 
 

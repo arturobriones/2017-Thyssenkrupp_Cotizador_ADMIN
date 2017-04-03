@@ -43,6 +43,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DevExpress.Data.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v16.1.Core, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v16.1.Core, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.ASPxThemes.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.Resources.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
       <Private>True</Private>
@@ -87,6 +93,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\Program Files (x86)\Telerik\UI for ASP.NET AJAX R1 2017\Bin45\Telerik.Web.UI.dll</HintPath>
     </Reference>
+    <Reference Include="Telerik.Web.UI.Skins">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Telerik\UI for ASP.NET AJAX R1 2017\Bin45\Telerik.Web.UI.Skins.dll</HintPath>
+    </Reference>
     <Reference Include="WebGrease">
       <Private>True</Private>
       <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
@@ -114,7 +123,26 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="Admin\AdminClients.aspx" />
     <Content Include="Admin\AdminHome.aspx" />
+    <Content Include="Admin\Admin_BlanksInformation.aspx" />
+    <Content Include="Admin\Admin_CoilSpec.aspx" />
+    <Content Include="Admin\Admin_ConversionFactors.aspx" />
+    <Content Include="Admin\Admin_CutTolerance.aspx" />
+    <Content Include="Admin\Admin_DimensionTolerance.aspx" />
+    <Content Include="Admin\Admin_IHS.aspx" />
+    <Content Include="Admin\Admin_Incoterm.aspx" />
+    <Content Include="Admin\Admin_MaterialType.aspx" />
+    <Content Include="Admin\Admin_Packaging.aspx" />
+    <Content Include="Admin\Admin_Process.aspx" />
+    <Content Include="Admin\Admin_ProductLine.aspx" />
+    <Content Include="Admin\Admin_RawMaterialSource.aspx" />
+    <Content Include="Admin\Admin_ShapeOfBlank.aspx" />
+    <Content Include="Admin\Admin_ShipTo.aspx" />
+    <Content Include="Admin\Admin_StatusQuote.aspx" />
+    <Content Include="Admin\Admin_Units.aspx" />
+    <Content Include="Admin\Admin_WeightCoilCalculation.aspx" />
+    <Content Include="Admin\Admin_WidthTolerance.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap.css" />
@@ -125,8 +153,12 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Admin\Admin.Master" />
+    <None Include="Properties\PublishProfiles\ThyskCotizadorAdmin.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Images\Thyssenkrupp_Logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Thyssenkrupp_LogoWhite.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Scripts\bootstrap.js" />
@@ -184,12 +216,145 @@
     <Compile Include="Admin\Admin.Master.designer.cs">
       <DependentUpon>Admin.Master</DependentUpon>
     </Compile>
+    <Compile Include="Admin\AdminClients.aspx.cs">
+      <DependentUpon>AdminClients.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminClients.aspx.designer.cs">
+      <DependentUpon>AdminClients.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Admin\AdminHome.aspx.cs">
       <DependentUpon>AdminHome.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Admin\AdminHome.aspx.designer.cs">
       <DependentUpon>AdminHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Admin_BlanksInformation.aspx.cs">
+      <DependentUpon>Admin_BlanksInformation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Admin_BlanksInformation.aspx.designer.cs">
+      <DependentUpon>Admin_BlanksInformation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Admin_CoilSpec.aspx.cs">
+      <DependentUpon>Admin_CoilSpec.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Admin_CoilSpec.aspx.designer.cs">
+      <DependentUpon>Admin_CoilSpec.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Admin_ConversionFactors.aspx.cs">
+      <DependentUpon>Admin_ConversionFactors.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Admin_ConversionFactors.aspx.designer.cs">
+      <DependentUpon>Admin_ConversionFactors.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Admin_CutTolerance.aspx.cs">
+      <DependentUpon>Admin_CutTolerance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Admin_CutTolerance.aspx.designer.cs">
+      <DependentUpon>Admin_CutTolerance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Admin_DimensionTolerance.aspx.cs">
+      <DependentUpon>Admin_DimensionTolerance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Admin_DimensionTolerance.aspx.designer.cs">
+      <DependentUpon>Admin_DimensionTolerance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Admin_IHS.aspx.cs">
+      <DependentUpon>Admin_IHS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Admin_IHS.aspx.designer.cs">
+      <DependentUpon>Admin_IHS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Admin_Incoterm.aspx.cs">
+      <DependentUpon>Admin_Incoterm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Admin_Incoterm.aspx.designer.cs">
+      <DependentUpon>Admin_Incoterm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Admin_MaterialType.aspx.cs">
+      <DependentUpon>Admin_MaterialType.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Admin_MaterialType.aspx.designer.cs">
+      <DependentUpon>Admin_MaterialType.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Admin_Packaging.aspx.cs">
+      <DependentUpon>Admin_Packaging.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Admin_Packaging.aspx.designer.cs">
+      <DependentUpon>Admin_Packaging.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Admin_Process.aspx.cs">
+      <DependentUpon>Admin_Process.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Admin_Process.aspx.designer.cs">
+      <DependentUpon>Admin_Process.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Admin_ProductLine.aspx.cs">
+      <DependentUpon>Admin_ProductLine.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Admin_ProductLine.aspx.designer.cs">
+      <DependentUpon>Admin_ProductLine.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Admin_RawMaterialSource.aspx.cs">
+      <DependentUpon>Admin_RawMaterialSource.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Admin_RawMaterialSource.aspx.designer.cs">
+      <DependentUpon>Admin_RawMaterialSource.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Admin_ShapeOfBlank.aspx.cs">
+      <DependentUpon>Admin_ShapeOfBlank.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Admin_ShapeOfBlank.aspx.designer.cs">
+      <DependentUpon>Admin_ShapeOfBlank.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Admin_ShipTo.aspx.cs">
+      <DependentUpon>Admin_ShipTo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Admin_ShipTo.aspx.designer.cs">
+      <DependentUpon>Admin_ShipTo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Admin_StatusQuote.aspx.cs">
+      <DependentUpon>Admin_StatusQuote.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Admin_StatusQuote.aspx.designer.cs">
+      <DependentUpon>Admin_StatusQuote.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Admin_Units.aspx.cs">
+      <DependentUpon>Admin_Units.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Admin_Units.aspx.designer.cs">
+      <DependentUpon>Admin_Units.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Admin_WeightCoilCalculation.aspx.cs">
+      <DependentUpon>Admin_WeightCoilCalculation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Admin_WeightCoilCalculation.aspx.designer.cs">
+      <DependentUpon>Admin_WeightCoilCalculation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Admin_WidthTolerance.aspx.cs">
+      <DependentUpon>Admin_WidthTolerance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Admin_WidthTolerance.aspx.designer.cs">
+      <DependentUpon>Admin_WidthTolerance.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">

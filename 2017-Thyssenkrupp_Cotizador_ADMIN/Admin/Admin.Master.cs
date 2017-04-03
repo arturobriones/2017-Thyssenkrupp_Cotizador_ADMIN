@@ -11,7 +11,64 @@ namespace _2017_Thyssenkrupp_Cotizador_ADMIN.Admin
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!IsPostBack)
+            {
+                string statusVar = "";
+
+                if (Session["AccesoVerificado"] == null)
+                {
+
+                    Response.Redirect("~/Default.aspx"); return;
+
+                }
+                else
+                {
+                    statusVar = (string)Session["AccesoVerificado"];
+                    if (statusVar == "")
+                    {
+                        Response.Redirect("~/Default.aspx");
+                        return;
+                    }
+                    return;
+                }
+
+
+                if (statusVar == "negado")
+                {
+                    Response.Redirect("~/Default.aspx");
+                    return;
+                }
+            }
+            else
+            {
+               string statusVar = "";
+
+                    if (Session["AccesoVerificado"] == null)
+                    {
+
+                        Response.Redirect("~/Default.aspx"); return;
+
+                    }
+                    else
+                    {
+                        statusVar = (string)Session["AccesoVerificado"];
+                        if (statusVar == "")
+                        {
+                            Response.Redirect("~/Default.aspx");
+                            return;
+                        }
+                        return;
+                    }
+
+
+                    if (statusVar == "negado")
+                    {
+                        Response.Redirect("~/Default.aspx");
+                        return;
+                    }
+                
+            }
+        }
 
         }
-    }
 }
