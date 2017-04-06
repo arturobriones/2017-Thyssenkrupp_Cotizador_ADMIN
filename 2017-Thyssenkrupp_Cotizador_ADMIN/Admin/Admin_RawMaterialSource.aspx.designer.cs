@@ -47,5 +47,23 @@ namespace _2017_Thyssenkrupp_Cotizador_ADMIN.Admin {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::Telerik.Web.UI.RadMenu RadMenuAdmin;
+        
+        /// <summary>
+        /// RadGrid_RawMaterial control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::Telerik.Web.UI.RadGrid RadGrid_RawMaterial;
+        
+        /// <summary>
+        /// SqlDataSourceRawMaterial control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSourceRawMaterial;
     }
 }

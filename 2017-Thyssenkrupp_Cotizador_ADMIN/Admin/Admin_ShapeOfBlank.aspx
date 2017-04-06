@@ -74,7 +74,7 @@
 			</li>
 		</ul>
 	</div>
-	<div class="container" id="page-content-wrapper">
+	<div class="container" id="page-content-wrapper" style="position: fixed; overflow: scroll; height:100%">
 	    
 		<!-- Page Title ---------------------------------------------------------------------------------------------------------------->
 		<div class="alert alert-dismissible alert-info">
@@ -82,7 +82,7 @@
 		</div>
 		<!-- Page Title ---------------------------------------------------------------------------------------------------------------->       
 
-		<div class="row">
+		<div class="row" style="height: 1100px;">
 			<h2>Shape of Blank</h2>
 			<!-- WebPageContent -------------------------------------------------------------------------------------------------------->
 			<div class="col-sm-12 col-md-12 col-lg-12">
@@ -155,10 +155,11 @@
 
 			<!-- End GridView for Users ---------------------------------------------------------------------------------------------------->
 			<!-- End WebPageContent ---------------------------------------------------------------------------------------------------->
-			<p></p>
+			<p>&nbsp;</p>
+		    <p>&copy; Copyright <%: DateTime.Now.Year %> - Thyssenkrupp Mexico</p>
 		</div>
 		<div>
-			<p>&copy; Copyright <%: DateTime.Now.Year %> - Thyssenkrupp Mexico</p>
+			
 		</div>
 	</div>
 
