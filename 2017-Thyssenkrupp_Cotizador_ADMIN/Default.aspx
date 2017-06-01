@@ -28,7 +28,7 @@
             <h2>Login</h2>
         </div>
         <p>&nbsp;</p>
-        <!-- User Login Row -->
+        <!-- User Auth Row -->
         <div class="row">
                 <div class="col-lg-1 col-md-1 col-sm-2 col-xs-2">
                     <telerik:RadLabel ID="UILabelCategoria" runat="server">Authorization: </telerik:RadLabel>
@@ -41,7 +41,7 @@
                     </telerik:RadComboBox>
                 </div>
         </div>
-        &nbsp;
+        <p>&nbsp;</p>
         <!-- User Login Row -->
         <div class="row">
                 <div class="col-lg-1 col-md-1 col-sm-2 col-xs-2">

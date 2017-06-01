@@ -86,9 +86,9 @@ namespace _2017_Thyssenkrupp_Cotizador_ADMIN
                     return;
                 }
 
-                dataReader.Close();
-                command.Dispose();
-                cnn.Close();
+                //dataReader.Close();
+                //command.Dispose();
+                //cnn.Close();
             }
             catch (Exception exc)
             {

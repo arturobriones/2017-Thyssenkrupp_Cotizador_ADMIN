@@ -2,13 +2,20 @@
 <ArrayOfArrayOfArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ArrayOfArrayOfString>
     <ArrayOfString>
-      <string>D:\DropboxMSN\Dropbox\2017 Development\2017-Thyssenkrupp_Cotizador_ADMIN\2017-Thyssenkrupp_Cotizador_ADMIN\Admin\AdminClients.aspx</string>
+      <string>D:\DropboxMSN\Dropbox\2017 Development\2017-Thyssenkrupp_Cotizador_ADMIN\2017-Thyssenkrupp_Cotizador_ADMIN\Default.aspx</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>d:\dropboxmsn\dropbox\2017 development\2017-thyssenkrupp_cotizador_admin\2017-thyssenkrupp_cotizador_admin\bundle.config</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>d:\dropboxmsn\dropbox\2017 development\2017-thyssenkrupp_cotizador_admin\2017-thyssenkrupp_cotizador_admin\site.master</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\DropboxMSN\Dropbox\2017 Development\2017-Thyssenkrupp_Cotizador_ADMIN\2017-Thyssenkrupp_Cotizador_ADMIN\Admin\Admin.Master</string>
     </ArrayOfString>
     <ArrayOfString>
       <string>D:\DropboxMSN\Dropbox\2017 Development\2017-Thyssenkrupp_Cotizador_ADMIN\2017-Thyssenkrupp_Cotizador_ADMIN\Admin\AdminHome.aspx</string>
-    </ArrayOfString>
-    <ArrayOfString>
-      <string>D:\DropboxMSN\Dropbox\2017 Development\2017-Thyssenkrupp_Cotizador_ADMIN\2017-Thyssenkrupp_Cotizador_ADMIN\Admin\Admin_IHS.aspx</string>
+      <string>D:\DropboxMSN\Dropbox\2017 Development\2017-Thyssenkrupp_Cotizador_ADMIN\2017-Thyssenkrupp_Cotizador_ADMIN\Admin\AdminHome.aspx.cs</string>
     </ArrayOfString>
   </ArrayOfArrayOfString>
 </ArrayOfArrayOfArrayOfString>

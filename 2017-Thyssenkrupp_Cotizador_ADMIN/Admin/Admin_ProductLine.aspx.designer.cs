@@ -67,6 +67,15 @@ namespace _2017_Thyssenkrupp_Cotizador_ADMIN.Admin {
         protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSourceFacility;
         
         /// <summary>
+        /// SqlDataSourceProductLine2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSourceProductLine2;
+        
+        /// <summary>
         /// RadGrid_ProductLine control.
         /// </summary>
         /// <remarks>
